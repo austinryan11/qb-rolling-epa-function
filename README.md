@@ -18,7 +18,7 @@ library(tidyverse)
     select(full_name, first_name, last_name, team, gsis_id, headshot_url)
     
 # Set working directory  
-  setwd("C:/Users/ausryan/Desktop/MBA/packeRanalytics/99_data")
+  setwd("C:/Users/###")
   
 # Check for missing games in play-by-play data
   nflfastR::update_db()
