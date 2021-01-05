@@ -48,7 +48,7 @@ library(tidyverse)
     ungroup() 
 ```
 ## Function
-The can take four inputs. 1) The quarterback's full name, 2) what season you want the plot to start, 3) the background color of the plot, and 4) the color of the text and plot fill. Note as this is currently written the function will use the colors of the last team the quarterback has a play with. Additionally, it errors out if you choose a quarterback that doesn't have a headshot image url. You also need to know the exact spelling of the quarterback. If you have ideas on how to improve please let me know!
+The function can take four inputs. 1) The quarterback's full name, 2) what season you want the plot to start, 3) the background color of the plot, and 4) the color of the text and plot fill. Note as this is currently written the function will use the colors of the last team the quarterback has a play with. Additionally, it errors out if you choose a quarterback that doesn't have a headshot image url. You also need to know the exact spelling of the quarterback. If you have ideas on how to improve please let me know!
 
 ```r
     roll_epa_plot <- function(qb = "Aaron Rodgers", since = 1999, color1 = "team_color", color2 = "team_color2") {
