@@ -2,7 +2,7 @@
 how to plot rolling epa plots with nflfastR
 
 ## Introduction
-This page will show you how to make plots like the one below nflfastR data. 
+This page will show you how to make plots like the one below with the nflfastR package. 
 ![](rmd_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 
 The following assumes you have some familiarity with nflfastR. If you don't but are interested in learning more I recommend starting with [Ben Baldwin's nflfastR begginer's guide](https://www.nflfastr.com/articles/beginners_guide.html) or [Lee Sharpe's R and RStudio Intro](https://github.com/leesharpe/nfldata/blob/master/RSTUDIO-INTRO.md#r-and-rstudio-introduction).
